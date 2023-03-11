@@ -47,7 +47,7 @@
   "context-menu.copy-as": "کپی به‌‌عنوان",
   "context-menu.export-as": "خروجی با فرمت",
   "context-menu.move-to-page": "ببر به صفحه",
-  "edit-pages-dialog.delete": " پاک‌کردن",
+  "page-menu.submenu.delete": " پاک‌کردن",
   "shortcuts-dialog.edit": "ویرایش",
   "shortcuts-dialog.file": "فایل",
   "shortcuts-dialog.preferences": "تنظیم‌ها",

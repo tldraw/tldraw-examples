@@ -47,7 +47,7 @@
   "context-menu.copy-as": "形式を選択してコピー",
   "context-menu.export-as": "形式を選択してエクスポート",
   "context-menu.move-to-page": "ページへ移動",
-  "edit-pages-dialog.delete": "削除",
+  "page-menu.submenu.delete": "削除",
   "shortcuts-dialog.edit": "編集",
   "shortcuts-dialog.file": "ファイル",
   "shortcuts-dialog.preferences": "設定",

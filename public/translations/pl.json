@@ -47,7 +47,7 @@
   "context-menu.copy-as": "Kopiuj jako",
   "context-menu.export-as": "Eksportuj jako",
   "context-menu.move-to-page": "Przenieś na stronę",
-  "edit-pages-dialog.delete": "Usuń",
+  "page-menu.submenu.delete": "Usuń",
   "shortcuts-dialog.edit": "Edycja",
   "shortcuts-dialog.file": "Plik",
   "shortcuts-dialog.preferences": "Preferencje",

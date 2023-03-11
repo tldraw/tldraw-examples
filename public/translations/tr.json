@@ -47,7 +47,7 @@
   "context-menu.copy-as": "Olarak Kopyala",
   "context-menu.export-as": "Olarak Dışarı Aktar",
   "context-menu.move-to-page": "Sayfaya Taşı",
-  "edit-pages-dialog.delete": "Sil",
+  "page-menu.submenu.delete": "Sil",
   "shortcuts-dialog.edit": "Düzenle",
   "shortcuts-dialog.file": "Dosya",
   "shortcuts-dialog.preferences": "Tercihler",
