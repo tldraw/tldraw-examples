@@ -6,21 +6,15 @@ import {
 	TLBaseShape,
 	TLBoxUtil,
 	Tldraw,
-	TldrawConfig,
+	TldrawEditorConfig,
 	TLOpacityType,
-} from '@tldraw/tldraw-beta'
-import {
-	ContextMenu,
 	MenuGroup,
 	menuItem,
-	TldrawUi,
-	TldrawUiContextProvider,
-	TldrawUiOverrides,
 	toolbarItem,
-} from '@tldraw/ui'
-import '@tldraw/tldraw-beta/tldraw.css'
+} from '@tldraw/tldraw'
+import '@tldraw/editor/tldraw.css'
 import '@tldraw/ui/tldraw-ui.css'
-import { TLBoxTool } from '@tldraw/tldraw-beta'
+import { TLBoxTool } from '@tldraw/tldraw'
 
 // Let's make a custom shape called a Card.
 
@@ -72,9 +66,22 @@ class CardUtil extends TLBoxUtil<CardShape> {
 	// This is the component that will be rendered for the shape.
 	// Try changing the contents of the HTMLContainer to see what happens.
 	render(shape: CardShape) {
+		// You can access class methods from here
+		const bounds = this.bounds(shape)
+
 		return (
-			<HTMLContainer id={shape.id} style={{ border: '1px solid black' }}>
-				hello
+			<HTMLContainer
+				id={shape.id}
+				style={{
+					border: '1px solid black',
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					pointerEvents: 'all',
+				}}
+			>
+				{/* Anything you want can go here—it's a regular React component */}
+				{bounds.w.toFixed()}x{bounds.h.toFixed()}
 			</HTMLContainer>
 		)
 	}
@@ -98,64 +105,54 @@ export class CardTool extends TLBoxTool {
 }
 
 // Finally, collect the custom tools and shapes into a config object
-const customTldrawConfig = new TldrawConfig({
+const customTldrawConfig = new TldrawEditorConfig({
 	tools: [CardTool],
 	shapes: [CardShape],
 	allowUnknownShapes: true,
 })
 
 // ... and we can make our custom shape example!
-export function CustomShapeExample() {
-	const handleMount = (app: App) => {
-		// You can access the app instance here, e.g. app.selectAll()
-	}
-
+export default function () {
 	return (
 		<div className="tldraw__editor">
-			<Tldraw config={customTldrawConfig} onMount={handleMount}>
-				<TldrawUiContextProvider
-					overrides={{
-						tools(app, tools) {
-							// In order for our custom tool to show up in the UI...
-							// We need to add it to the tools list. This "toolItem"
-							// has information about its icon, label, keyboard shortcut,
-							// and what to do when it's selected.
-							tools.card = {
-								id: 'card',
-								icon: 'color',
-								label: 'Card' as any,
-								kbd: 'c',
-								readonlyOk: false,
-								onSelect: () => {
-									app.setSelectedTool('card')
-								},
-							}
-							return tools
-						},
-						toolbar(app, toolbar, { tools }) {
-							// The toolbar is an array of items. We can add it to the
-							// end of the array or splice it in, then return the array.
-							toolbar.splice(4, 0, toolbarItem(tools.card))
-							return toolbar
-						},
-						keyboardShortcutsMenu(app, keyboardShortcutsMenu, { tools }) {
-							// Same for the keyboard shortcuts menu, but this menu contains
-							// both items and groups. We want to find the "Tools" group and
-							// add it to that before returning the array.
-							const toolsGroup = keyboardShortcutsMenu.find(
-								(group) => group.id === 'shortcuts-dialog.tools'
-							) as MenuGroup
-							toolsGroup.children.push(menuItem(tools.card))
-							return keyboardShortcutsMenu
-						},
-					}}
-				>
-					<ContextMenu>
-						<Canvas />
-					</ContextMenu>
-					<TldrawUi />
-				</TldrawUiContextProvider>
-			</Tldraw>
+			<Tldraw
+				config={customTldrawConfig}
+				overrides={{
+					tools(app, tools) {
+						// In order for our custom tool to show up in the UI...
+						// We need to add it to the tools list. This "toolItem"
+						// has information about its icon, label, keyboard shortcut,
+						// and what to do when it's selected.
+						tools.card = {
+							id: 'card',
+							icon: 'color',
+							label: 'Card' as any,
+							kbd: 'c',
+							readonlyOk: false,
+							onSelect: () => {
+								app.setSelectedTool('card')
+							},
+						}
+						return tools
+					},
+					toolbar(app, toolbar, { tools }) {
+						// The toolbar is an array of items. We can add it to the
+						// end of the array or splice it in, then return the array.
+						toolbar.splice(4, 0, toolbarItem(tools.card))
+						return toolbar
+					},
+					keyboardShortcutsMenu(app, keyboardShortcutsMenu, { tools }) {
+						// Same for the keyboard shortcuts menu, but this menu contains
+						// both items and groups. We want to find the "Tools" group and
+						// add it to that before returning the array.
+						const toolsGroup = keyboardShortcutsMenu.find(
+							(group) => group.id === 'shortcuts-dialog.tools'
+						) as MenuGroup
+						toolsGroup.children.push(menuItem(tools.card))
+						return keyboardShortcutsMenu
+					},
+				}}
+			/>
 		</div>
 	)
 }

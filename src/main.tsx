@@ -1,18 +1,28 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Example } from './examples/Example'
-import { CustomShapeExample } from './examples/CustomShapeExample'
+import ExampleBasic from './examples/1-basic/ExampleBasic'
+import ExampleApi from './examples/2-api/ExampleApi'
+import ExampleCustom from './examples/3-custom/ExampleCustom'
+import ExampleCustomUi from './examples/4-custom-ui/ExampleCustomUi'
 import './index.css'
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Example />,
+		element: <ExampleBasic />,
+	},
+	{
+		path: '/api',
+		element: <ExampleApi />,
 	},
 	{
 		path: '/custom',
-		element: <CustomShapeExample />,
+		element: <ExampleCustom />,
+	},
+	{
+		path: '/custom-ui',
+		element: <ExampleCustomUi />,
 	},
 ])
 
