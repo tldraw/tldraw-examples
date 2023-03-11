@@ -1,10 +1,26 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { App } from "./App";
-import "./index.css";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Example } from './examples/Example'
+import { CustomShapeExample } from './examples/CustomShapeExample'
+import './index.css'
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const router = createBrowserRouter([
+	{
+		path: '/',
+		element: <Example />,
+	},
+	{
+		path: '/custom',
+		element: <CustomShapeExample />,
+	},
+])
+
+const rootElement = document.getElementById('root')
+const root = createRoot(rootElement!)
+
+root.render(
+	<StrictMode>
+		<RouterProvider router={router} />
+	</StrictMode>
+)

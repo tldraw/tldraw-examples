@@ -47,7 +47,7 @@
   "context-menu.copy-as": "Kopier som",
   "context-menu.export-as": "Eksporter som",
   "context-menu.move-to-page": "Flytt til side",
-  "edit-pages-dialog.delete": "Slett",
+  "page-menu.submenu.delete": "Slett",
   "shortcuts-dialog.edit": "Rediger",
   "shortcuts-dialog.file": "Fil",
   "shortcuts-dialog.preferences": "Preferanser",

@@ -47,7 +47,7 @@
   "context-menu.copy-as": "कपि एज",
   "context-menu.export-as": "एक्सपोर्ट एज",
   "context-menu.move-to-page": "पृष्ठमा सार्नुहोस्",
-  "edit-pages-dialog.delete": "मेटाउनुहोस्",
+  "page-menu.submenu.delete": "मेटाउनुहोस्",
   "shortcuts-dialog.edit": "सम्पादन गर्नुहोस्",
   "shortcuts-dialog.file": "फाइल",
   "shortcuts-dialog.preferences": "प्राथमिकताहरू",

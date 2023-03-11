@@ -47,7 +47,7 @@
   "context-menu.copy-as": "Скопировать как",
   "context-menu.export-as": "Экспортировать как",
   "context-menu.move-to-page": "Перейти на страницу",
-  "edit-pages-dialog.delete": "Удалить",
+  "page-menu.submenu.delete": "Удалить",
   "shortcuts-dialog.edit": "Редактирование",
   "shortcuts-dialog.file": "Файл",
   "shortcuts-dialog.preferences": "Настройки",

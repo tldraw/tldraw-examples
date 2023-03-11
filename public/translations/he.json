@@ -47,7 +47,7 @@
   "context-menu.copy-as": "העתק כ",
   "context-menu.export-as": "ייצא כ",
   "context-menu.move-to-page": "הזז לדף",
-  "edit-pages-dialog.delete": "מחק",
+  "page-menu.submenu.delete": "מחק",
   "shortcuts-dialog.edit": "עריכה",
   "shortcuts-dialog.file": "קובץ",
   "shortcuts-dialog.preferences": "מאפיינים",

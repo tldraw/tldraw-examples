@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none"><path stroke="#000" stroke-width="2" d="M11 15.209c0 .495-.09.97-.255 1.407l-.275.44.059.037a4 4 0 1 1 0-3.77l-.059.037.275.441c.165.438.255.912.255 1.408Zm16-8a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm0 16a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"><path stroke="#000" stroke-width="2" d="M11 15a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm16-8a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm0 16a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-8-2-8-5m8-7-8 5"/></svg>

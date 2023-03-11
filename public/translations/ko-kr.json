@@ -47,7 +47,7 @@
   "context-menu.copy-as": "다른 형식으로 복사하기",
   "context-menu.export-as": "내보내기",
   "context-menu.move-to-page": "페이지로 이동",
-  "edit-pages-dialog.delete": "삭제하기",
+  "page-menu.submenu.delete": "삭제하기",
   "shortcuts-dialog.edit": "편집",
   "shortcuts-dialog.file": "파일",
   "shortcuts-dialog.preferences": "설정",
