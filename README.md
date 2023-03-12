@@ -1,6 +1,13 @@
-# tldraw-beta-example
+<div alt style="text-align: center; transform: scale(.5);">
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://github.com/tldraw/tldraw-examples/raw/main/assets/github-hero-dark.png" />
+		<img alt="Signia" src="https://github.com/tldraw/tldraw-examples/raw/main/assets/github-hero-light.png" />
+	</picture>
+</div>
 
-Welcome to the tldraw beta example repository. Here you will find examples of using the new tldraw v2 libraries. Each example is organized as a route in the `src/examples` folder.
+# tldraw-examples
+
+Welcome to the tldraw example repository. Here you will find examples of using the new tldraw v2 libraries. Each example is organized as a route in the `src/examples` folder.
 
 ## Installation
 
