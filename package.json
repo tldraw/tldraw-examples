@@ -9,10 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tldraw/editor": "^2.0.0-alpha.4",
-    "@tldraw/tldraw": "^2.0.0-alpha.4",
-    "@tldraw/tlsync-client": "^2.0.0-alpha.4",
-    "@tldraw/ui": "^2.0.0-alpha.4",
+    "@tldraw/tldraw": "^2.0.0-alpha.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",

@@ -1,8 +1,7 @@
-import { App, Canvas, Tldraw, TldrawEditor, useApp } from '@tldraw/tldraw'
-import { ContextMenu, TldrawUi, TldrawUiContextProvider } from '@tldraw/ui'
-import '@tldraw/editor/tldraw.css'
+import { Canvas, TldrawEditor, useApp } from '@tldraw/tldraw'
+import '@tldraw/tldraw/editor.css'
 import './custom-ui.css'
-import { track, useValue } from 'signia-react'
+import { track } from 'signia-react'
 import { useEffect } from 'react'
 
 export default function () {

@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import ExampleBasic from './examples/1-basic/ExampleBasic'
-import ExampleApi from './examples/2-api/ExampleApi'
-import ExampleCustom from './examples/3-custom/ExampleCustom'
-import ExampleCustomUi from './examples/4-custom-ui/ExampleCustomUi'
+import ExampleBasic from './examples/1-basic/BasicExample'
+import ExampleApi from './examples/2-api/APIExample'
+import CustomConfigExample from './examples/3-custom-config/CustomConfigExample'
+import CustomUiExample from './examples/4-custom-ui/CustomUiExample'
+import ExplodedExample from './examples/5-exploded/ExplodedExample'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -18,11 +19,15 @@ const router = createBrowserRouter([
 	},
 	{
 		path: '/custom',
-		element: <ExampleCustom />,
+		element: <CustomConfigExample />,
 	},
 	{
 		path: '/custom-ui',
-		element: <ExampleCustomUi />,
+		element: <CustomUiExample />,
+	},
+	{
+		path: '/exploded',
+		element: <ExplodedExample />,
 	},
 ])
 

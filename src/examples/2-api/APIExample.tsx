@@ -1,7 +1,6 @@
-import { App, Canvas, Tldraw, TLGeoShape, useApp } from '@tldraw/tldraw'
-import { ContextMenu, TldrawUi, TldrawUiContextProvider } from '@tldraw/ui'
-import '@tldraw/editor/tldraw.css'
-import '@tldraw/ui/tldraw-ui.css'
+import { App, Tldraw, TLGeoShape, useApp } from '@tldraw/tldraw'
+import '@tldraw/tldraw/editor.css'
+import '@tldraw/tldraw/ui.css'
 import { useEffect } from 'react'
 
 // The tldraw component shares its App instance via its onMount callback prop.

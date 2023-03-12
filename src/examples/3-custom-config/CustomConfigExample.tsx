@@ -1,6 +1,4 @@
 import {
-	App,
-	Canvas,
 	defineShape,
 	HTMLContainer,
 	TLBaseShape,
@@ -11,10 +9,10 @@ import {
 	MenuGroup,
 	menuItem,
 	toolbarItem,
+	TLBoxTool,
 } from '@tldraw/tldraw'
-import '@tldraw/editor/tldraw.css'
-import '@tldraw/ui/tldraw-ui.css'
-import { TLBoxTool } from '@tldraw/tldraw'
+import '@tldraw/tldraw/editor.css'
+import '@tldraw/tldraw/ui.css'
 
 // Let's make a custom shape called a Card.
 

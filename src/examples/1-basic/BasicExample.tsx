@@ -1,6 +1,6 @@
 import { Tldraw } from '@tldraw/tldraw'
-import '@tldraw/editor/tldraw.css'
-import '@tldraw/ui/tldraw-ui.css'
+import '@tldraw/tldraw/editor.css'
+import '@tldraw/tldraw/ui.css'
 
 export default function () {
 	return (

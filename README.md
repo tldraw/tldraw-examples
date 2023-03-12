@@ -7,63 +7,49 @@
 
 # tldraw-examples
 
-Welcome to the tldraw example repository. Here you will find examples of using the new tldraw v2 libraries. Each example is organized as a route in the `src/examples` folder.
+Welcome to the tldraw example repository. Here you will find examples of using the new tldraw v2 library. Each example is organized as a route in the `src/examples` folder.
 
 ## Installation
 
 This app is a regular [Vite](https://vitejs.dev/) app.
 
-First install dependencies:
+First install the `@tldraw/tldraw` package using `@alpha` for the **latest alpha release**.
 
 ```bash
-yarn
+yarn add @tldraw/tldraw@alpha
 # or
-npm install
+npm install @tldraw/tldraw@alpha
 # or
-pnpm
+pnpm i @tldraw/tldraw@alpha
 ```
 
 Then start the local development server.
 
-## Notes on Usage
+```bash
+yarn dev
+# or
+npm run dev
+# or
+pnpm dev
+```
 
-We distribute tldraw as two main packages:
-
-- The `@tldraw/tldraw` package contains the tldraw editor and client
-- The `@tldraw/ui` package contains our user interface
+## Usage
 
 An extremely minimal usage (without our UI) might look like this:
 
 ```tsx
-import { Tldraw } from '@tldraw/tldraw-beta'
-import '@tldraw/tldraw-beta/tldraw.css'
+import { Tldraw } from '@tldraw/tldraw'
+import '@tldraw/tldraw/editor.css'
+import '@tldraw/tldraw/ui.css'
 
 export default function () {
 	return <Tldraw />
 }
 ```
 
-And with our UI library:
+The `<Tldraw/>` component combines several other pieces: the tldraw editor, the tldraw UI, and a syncronization engine for persistence and cross-tab syncronization. (In the future, it will also include an engine for using our collaboration services).
 
-```tsx
-import { Canvas, Tldraw } from '@tldraw/tldraw-beta'
-import { ContextMenu, TldrawUi, TldrawUiContextProvider } from '@tldraw/ui'
-import '@tldraw/tldraw-beta/tldraw.css'
-import '@tldraw/ui/tldraw-ui.css'
-
-export default function () {
-	return (
-		<Tldraw>
-			<TldrawUiContextProvider>
-				<ContextMenu>
-					<Canvas />
-				</ContextMenu>
-				<TldrawUi />
-			</TldrawUiContextProvider>
-		</Tldraw>
-	)
-}
-```
+If you wanted to have more granular control, you could also use those subcomponents directly. See the **Exploded example** for what that would look like.
 
 #### Assets
 
@@ -75,16 +61,11 @@ While these files must be available, you can overwrite the individual files: for
 
 #### Styles
 
-In order for the `<Tldraw/>` component to work, you must also import a CSS file from the library:
+In order for the `<Tldraw/>` component to work, you must also import a CSS file from the library `@tldraw/editor` library (automatically installed with `@tldraw/tldraw`):
 
 ```ts
-import '@tldraw/tldraw-beta/tldraw.css'
-```
-
-If you are also using the `@tldraw/ui` library then you must also import:
-
-```ts
-import '@tldraw/ui/tldraw-ui.css'
+import '@tldraw/tldraw/editor.css'
+import '@tldraw/tldraw/ui.css'
 ```
 
 You can overwrite these files with other CSS, customize the styles via package patches, or copy the contents into a different file and import that instead.
