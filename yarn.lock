@@ -860,16 +860,16 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.4.0.tgz#74935d538e4df8893e47831a7aea362f295bcd39"
   integrity sha512-BJ9SxXux8zAg991UmT8slpwpsd31K1dHHbD3Ba4VzD+liLQ4WAMSxQp2d2ZPRPfN0jN2NPRowcSSoM7lCaF08Q==
 
-"@tldraw/editor@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/editor/-/editor-2.0.0-alpha.5.tgz#bc0145eaeb3fa8c75cd9431d6511f3fba5057be2"
-  integrity sha512-HpI2ype3QkUxMG9eiYzLSsLITxQJV11gpGU3FNGpzsgVjz23zJOxtLruFSn6tkqYvCe7GcIEb53PmUwilOvCBw==
+"@tldraw/editor@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/editor/-/editor-2.0.0-alpha.6.tgz#ee46fef74b45be29c9fdeadcc4dd5a0a4404f573"
+  integrity sha512-CRdxpg657HRf8oxjjOd5OQY5SpP/n8opEdddSjob7atZA/SWLnP+G8TNjMe9pkL1GGKwRgfU1aRrRiQjEVRJDw==
   dependencies:
-    "@tldraw/primitives" "2.0.0-alpha.5"
-    "@tldraw/tlschema" "2.0.0-alpha.5"
-    "@tldraw/tlstore" "2.0.0-alpha.5"
-    "@tldraw/tlvalidate" "2.0.0-alpha.5"
-    "@tldraw/utils" "2.0.0-alpha.5"
+    "@tldraw/primitives" "2.0.0-alpha.6"
+    "@tldraw/tlschema" "2.0.0-alpha.6"
+    "@tldraw/tlstore" "2.0.0-alpha.6"
+    "@tldraw/tlvalidate" "2.0.0-alpha.6"
+    "@tldraw/utils" "2.0.0-alpha.6"
     "@use-gesture/react" "^10.2.24"
     classnames "^2.3.2"
     escape-string-regexp "^5.0.0"
@@ -880,78 +880,78 @@
     signia "^0.0.8"
     signia-react "^0.0.8"
 
-"@tldraw/primitives@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/primitives/-/primitives-2.0.0-alpha.5.tgz#f7e17ac6895333c30bb414241f8f54e91aa2cbb8"
-  integrity sha512-fjYcOksVp4DRv7YZeyAUaoSMZZCtQvIPHSr9R9FC7dg55MLRIjoBXaxtbE4cGwDy24WsGXtgiVufQP3YqGhJYw==
+"@tldraw/primitives@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/primitives/-/primitives-2.0.0-alpha.6.tgz#c645fbc20c8cff44e10be9b44250784d81ae1c2d"
+  integrity sha512-ofj9dBxf/3qwNzgAElHqZeJkil2c3t6wKaHvXu51/owV1BZ6KqeifwmNVaAAMhUqozpOM2nT48IZPySCFTyvGg==
   dependencies:
-    "@tldraw/tlschema" "2.0.0-alpha.5"
+    "@tldraw/tlschema" "2.0.0-alpha.6"
 
-"@tldraw/tldraw@^2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/tldraw/-/tldraw-2.0.0-alpha.5.tgz#f6272e8a5a28290f68165b254861d3986e7c4f7c"
-  integrity sha512-DA3k03XNqf8712P2koWuocfNUCUKX6DX4h73FUqavsGrvOJk2ThHikuNu6dSNkAF21Wb4KHxaToQC95cn3qUlw==
+"@tldraw/tldraw@^2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/tldraw/-/tldraw-2.0.0-alpha.6.tgz#696d5571e6d3c8c5fa4b0b2e71d9d0f82ed3d221"
+  integrity sha512-dkdHA9B0mnaQMRsmQs9NcRBB2tzbbOUlnuTNVhTVn8sX8EGcdeQ3ZCgwfHPZAtju6Lzc0oPzTOniZmGpdvpUmA==
   dependencies:
-    "@tldraw/editor" "2.0.0-alpha.5"
-    "@tldraw/tlsync-client" "2.0.0-alpha.5"
-    "@tldraw/ui" "2.0.0-alpha.5"
+    "@tldraw/editor" "2.0.0-alpha.6"
+    "@tldraw/tlsync-client" "2.0.0-alpha.6"
+    "@tldraw/ui" "2.0.0-alpha.6"
 
-"@tldraw/tlschema@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/tlschema/-/tlschema-2.0.0-alpha.5.tgz#8fa9c64f0eae1d75af5a316db697de0a0d7c630d"
-  integrity sha512-z1RguqZxZ5ICOfet8Od7YG2lKjJBhMTTNSXtTPqBmCgeDaEBJ2j0XxPe/cs8Ld7u0Cguon0ZWIk7WCwFxLpHYQ==
+"@tldraw/tlschema@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/tlschema/-/tlschema-2.0.0-alpha.6.tgz#c889e7845734c090ca480faf81c17ad717355314"
+  integrity sha512-JP+cymOP4N0s9FYRv+SFQmLnG/Er7jeoBt5VXBXNBF/RHgyWznvO/80jP286kIlN1szWCAyPvJqoFBZbhEHJFA==
   dependencies:
-    "@tldraw/tlstore" "2.0.0-alpha.5"
-    "@tldraw/tlvalidate" "2.0.0-alpha.5"
-    "@tldraw/utils" "2.0.0-alpha.5"
+    "@tldraw/tlstore" "2.0.0-alpha.6"
+    "@tldraw/tlvalidate" "2.0.0-alpha.6"
+    "@tldraw/utils" "2.0.0-alpha.6"
     nanoid "^3.0.0"
 
-"@tldraw/tlstore@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/tlstore/-/tlstore-2.0.0-alpha.5.tgz#fd2af09d07ba6d1a40b009f397a83a8ef492a695"
-  integrity sha512-nmy+a/ZfeaKhMzysHg4OVUhKUvvv/y7wxipRnmz4zgthggHA+5yIHqRdIHyfvIX0y4MU5WLHjsW2wVgq8jnAxw==
+"@tldraw/tlstore@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/tlstore/-/tlstore-2.0.0-alpha.6.tgz#823a8cb6ef34e7e7139dc144aee9586e7e3aaf3d"
+  integrity sha512-dO0gB+OXGgPVzMz7vMWEtmMkcjwQ2Bg9r6eLPGFfDW+dmV7X88gm0thHkTSz+L1V+ftX8JusWl+ylYOcBiHFFA==
   dependencies:
-    "@tldraw/utils" "2.0.0-alpha.5"
+    "@tldraw/utils" "2.0.0-alpha.6"
     lodash.isequal "^4.5.0"
     nanoid "^3.0.0"
     signia "^0.0.8"
 
-"@tldraw/tlsync-client@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/tlsync-client/-/tlsync-client-2.0.0-alpha.5.tgz#0e231208f264e051b173d4c4cb2b8704f3a35593"
-  integrity sha512-HUhhjhJ2ArNlw8B//8ht+a4O7QGqpHsAiTVazJbZkkrKWrAVaUFGNja3vVnNf6CstCv/NU8JZKa/+uYp7zoWAQ==
+"@tldraw/tlsync-client@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/tlsync-client/-/tlsync-client-2.0.0-alpha.6.tgz#b624eda4672e3dc56beab3b1ab7295229577f0f9"
+  integrity sha512-yfPIXgTVo+lyZPNrNkIWdkIiZX6/lelVFZPKQx++tH1S2wm25KTNuc/M2DKqxW0UnDukEoKddgMicWwbRjmylw==
   dependencies:
-    "@tldraw/editor" "2.0.0-alpha.5"
-    "@tldraw/tlstore" "2.0.0-alpha.5"
-    "@tldraw/tlsync" "2.0.0-alpha.5"
+    "@tldraw/editor" "2.0.0-alpha.6"
+    "@tldraw/tlstore" "2.0.0-alpha.6"
+    "@tldraw/tlsync" "2.0.0-alpha.6"
     idb "^7.1.0"
     signia "^0.0.8"
     signia-react "^0.0.8"
   optionalDependencies:
     react "*"
 
-"@tldraw/tlsync@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/tlsync/-/tlsync-2.0.0-alpha.5.tgz#a7b0ac2889ece26aa111caddda729f3462d72dff"
-  integrity sha512-Nsldc40EOXtWdrtMV2ONcfQvxMYrbDVO3WHP9te7pZBzY6NfWmzbMAnbsK2+ufQxJvpw9sCXlkaQm/ls0EXgQA==
+"@tldraw/tlsync@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/tlsync/-/tlsync-2.0.0-alpha.6.tgz#523535719fecd1848867489ac87e5aa3826fbf14"
+  integrity sha512-mztICQ8/Q3DsItPRoaHG6VYM2Dqhuy1LTRs0SKatVJcF/8nKg0STDqJ0KXMaR+DOXZI/4UrabKl60U88RrS9SQ==
   dependencies:
-    "@tldraw/tlschema" "2.0.0-alpha.5"
-    "@tldraw/tlstore" "2.0.0-alpha.5"
-    "@tldraw/utils" "2.0.0-alpha.5"
+    "@tldraw/tlschema" "2.0.0-alpha.6"
+    "@tldraw/tlstore" "2.0.0-alpha.6"
+    "@tldraw/utils" "2.0.0-alpha.6"
     lodash.isequal "^4.5.0"
     signia "^0.0.8"
 
-"@tldraw/tlvalidate@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/tlvalidate/-/tlvalidate-2.0.0-alpha.5.tgz#f5d654994c6c710e91c9db767461520b26c3d7a1"
-  integrity sha512-O2QalQBuvWMr9Zj6VylEfp8zS2LC2iqiKQoZKZ1ChVLkCAEoyjcKXjra3sOIpzZY74Bd0OKSJvEbPe1/L11mxg==
+"@tldraw/tlvalidate@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/tlvalidate/-/tlvalidate-2.0.0-alpha.6.tgz#a1b26a0f9502889e62d1e2c133f62983d29ad70e"
+  integrity sha512-klMCD111fpr50QrfP2/mz9UE0BRJvJWkcZ1wg2zBSHw17e50INW8FMZca7PR67XTFsBvhIWMWpDkDpji0QVsQA==
   dependencies:
-    "@tldraw/utils" "2.0.0-alpha.5"
+    "@tldraw/utils" "2.0.0-alpha.6"
 
-"@tldraw/ui@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/ui/-/ui-2.0.0-alpha.5.tgz#fd08f31c8f7144965cf26bdeccabc2d3c8a1e4dd"
-  integrity sha512-Ojaf+ZXFirM5a3PD6kqdl1kIN4pYie48KdiP0z459gCcWsTcbyO8qq9ZcHerTs73nN/e4ci8voJ5a2xHft2Mbw==
+"@tldraw/ui@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/ui/-/ui-2.0.0-alpha.6.tgz#8c2568c7d1736cf89bc1b713f9a24ac524bdc387"
+  integrity sha512-wgOBVu6+p4sywx6EbB0oSeTCdj8lcv66LTC8DUwtOXyf/NpLhg+hCV3cTUpKpwD5EWJAi/vXkZ2kRheG4FSihQ==
   dependencies:
     "@radix-ui/react-alert-dialog" "^1.0.0"
     "@radix-ui/react-context-menu" "^2.1.1"
@@ -961,10 +961,10 @@
     "@radix-ui/react-select" "^1.2.0"
     "@radix-ui/react-slider" "^1.1.0"
     "@radix-ui/react-toast" "^1.1.1"
-    "@tldraw/editor" "2.0.0-alpha.5"
-    "@tldraw/primitives" "2.0.0-alpha.5"
-    "@tldraw/tlsync-client" "2.0.0-alpha.5"
-    "@tldraw/utils" "2.0.0-alpha.5"
+    "@tldraw/editor" "2.0.0-alpha.6"
+    "@tldraw/primitives" "2.0.0-alpha.6"
+    "@tldraw/tlsync-client" "2.0.0-alpha.6"
+    "@tldraw/utils" "2.0.0-alpha.6"
     browser-fs-access "^0.31.0"
     classnames "^2.3.2"
     hotkeys-js "^3.9.4"
@@ -974,10 +974,10 @@
     signia "^0.0.8"
     signia-react "^0.0.8"
 
-"@tldraw/utils@2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@tldraw/utils/-/utils-2.0.0-alpha.5.tgz#f3df9a1d6fa25232a8ec9686ea8cd3b3541c0517"
-  integrity sha512-BJ4nDlYtyQwyGLhN8AdNByoVJk2Qr4WWKI/03IcifYZqT+ig/0Xnb1OlQZnttjBZK6WPcsSEsjjg0/r4f7zPaA==
+"@tldraw/utils@2.0.0-alpha.6":
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/utils/-/utils-2.0.0-alpha.6.tgz#b41bd04bba5b43fa9be09a709356db2bf59503e9"
+  integrity sha512-aafo2QV83cnk/8PcfJBXKCA0fsdEL2VCcPYnPOm3u0yU7V4r4u9wPoh3WoLzQXy7UzHv2rxqkaWiDgOCpxgm+A==
 
 "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.1"
