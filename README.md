@@ -138,3 +138,9 @@ The `index.html`'s meta viewport element for some important settings. These may 
 	content="width=device-width, initial-scale=1, viewport-fit=cover"
 />
 ```
+
+## License
+
+The code in this repo is licensed under MIT.
+
+The various tldraw libraries are licensed mostly under Apache 2.0.
