@@ -57,16 +57,16 @@ import '@tldraw/tldraw/editor.css'
 import '@tldraw/tldraw/ui.css'
 
 export default function () {
-	return (
-		<div
-			style={{
-				position: 'fixed',
-				inset: 0,
-			}}
-		>
-			<Tldraw />
-		</div>
-	)
+  return (
+    <div
+      style={{
+        position: 'fixed',
+        inset: 0,
+      }}
+    >
+      <Tldraw />
+    </div>
+  )
 }
 ```
 
@@ -86,12 +86,12 @@ The `<Tldraw/>` component cannot be server-rendered. If you're using the compone
 import dynamic from "next/dynamic"
 
 const Editor = dynamic(
-	async () => import('../components/Editor')),
-	{ ssr: false }
+  async () => import('../components/Editor')),
+  { ssr: false }
 )
 
 export default function MyPage() {
-	return <Editor/>
+  return <Editor/>
 }
 ```
 
@@ -134,8 +134,8 @@ The `index.html`'s meta viewport element for some important settings. These may 
 
 ```html
 <meta
-	name="viewport"
-	content="width=device-width, initial-scale=1, viewport-fit=cover"
+  name="viewport"
+  content="width=device-width, initial-scale=1, viewport-fit=cover"
 />
 ```
 
