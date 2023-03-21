@@ -6,6 +6,7 @@ import ExampleApi from './examples/2-api/APIExample'
 import CustomConfigExample from './examples/3-custom-config/CustomConfigExample'
 import CustomUiExample from './examples/4-custom-ui/CustomUiExample'
 import ExplodedExample from './examples/5-exploded/ExplodedExample'
+import CustomConfigFromScratchExample from './examples/6-custom-config-from-scratch/CustomConfigFromScratchExample'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 	{
 		path: '/exploded',
 		element: <ExplodedExample />,
+	},
+	{
+		path: '/custom-from-scratch',
+		element: <CustomConfigFromScratchExample />,
 	},
 ])
 
