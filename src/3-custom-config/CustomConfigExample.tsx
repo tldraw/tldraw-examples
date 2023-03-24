@@ -1,15 +1,15 @@
 import {
 	defineShape,
 	HTMLContainer,
+	MenuGroup,
+	menuItem,
 	TLBaseShape,
+	TLBoxTool,
 	TLBoxUtil,
 	Tldraw,
 	TldrawEditorConfig,
 	TLOpacityType,
-	MenuGroup,
-	menuItem,
 	toolbarItem,
-	TLBoxTool,
 } from '@tldraw/tldraw'
 import '@tldraw/tldraw/editor.css'
 import '@tldraw/tldraw/ui.css'
@@ -49,9 +49,9 @@ class CardUtil extends TLBoxUtil<CardShape> {
 	static type = 'card'
 
 	// There are a LOT of other things we could add here, like these flags
-	override isAspectRatioLocked = (shape: CardShape) => false
-	override canResize = (shape: CardShape) => true
-	override canBind = (shape: CardShape) => true
+	override isAspectRatioLocked = (_shape: CardShape) => false
+	override canResize = (_shape: CardShape) => true
+	override canBind = (_shape: CardShape) => true
 
 	override defaultProps(): CardShape['props'] {
 		return {
@@ -110,7 +110,7 @@ const customTldrawConfig = new TldrawEditorConfig({
 })
 
 // ... and we can make our custom shape example!
-export default function () {
+export default function Example() {
 	return (
 		<div className="tldraw__editor">
 			<Tldraw

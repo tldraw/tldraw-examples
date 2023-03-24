@@ -10,7 +10,7 @@ import { useEffect } from 'react'
 // component and all shapes, tools, and UI components use this instance to
 // send events, observe changes, and perform actions.
 
-export default function () {
+export default function Example() {
 	const handleMount = (app: App) => {
 		// Create a shape id
 		const id = app.createShapeId('hello')

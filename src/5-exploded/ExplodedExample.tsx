@@ -1,19 +1,19 @@
 import {
 	Canvas,
-	TldrawEditor,
 	ContextMenu,
+	getUserData,
+	TldrawEditor,
 	TldrawUi,
 	TldrawUiContextProvider,
-	useLocalSyncClient,
-	getUserData,
 	TLInstance,
+	useLocalSyncClient,
 } from '@tldraw/tldraw'
 import '@tldraw/tldraw/editor.css'
 import '@tldraw/tldraw/ui.css'
 
 const instanceId = TLInstance.createCustomId('example')
 
-export default function () {
+export default function Example() {
 	const userData = getUserData()
 
 	const syncedStore = useLocalSyncClient({
@@ -25,11 +25,7 @@ export default function () {
 
 	return (
 		<div className="tldraw__editor">
-			<TldrawEditor
-				instanceId={instanceId}
-				userId={userData.id}
-				store={syncedStore}
-			>
+			<TldrawEditor instanceId={instanceId} userId={userData.id} store={syncedStore}>
 				<TldrawUiContextProvider>
 					<ContextMenu>
 						<Canvas />

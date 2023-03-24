@@ -1,10 +1,10 @@
 import { Canvas, TldrawEditor, useApp } from '@tldraw/tldraw'
 import '@tldraw/tldraw/editor.css'
-import './custom-ui.css'
-import { track } from 'signia-react'
 import { useEffect } from 'react'
+import { track } from 'signia-react'
+import './custom-ui.css'
 
-export default function () {
+export default function Example() {
 	return (
 		<div className="tldraw__editor">
 			<TldrawEditor>
