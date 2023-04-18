@@ -4,6 +4,10 @@
 		"label": "عربي"
 	},
 	{
+		"locale": "ca",
+		"label": "Català"
+	},
+	{
 		"locale": "da",
 		"label": "Danish"
 	},
@@ -22,6 +26,10 @@
 	{
 		"locale": "fa",
 		"label": "فارسی"
+	},
+	{
+		"locale": "fi",
+		"label": "Suomi"
 	},
 	{
 		"locale": "fr",
@@ -56,6 +64,10 @@
 		"label": "हिन्दी"
 	},
 	{
+		"locale": "hu",
+		"label": "Magyar"
+	},
+	{
 		"locale": "my",
 		"label": "မြန်မာစာ"
 	},
@@ -80,6 +92,10 @@
 		"label": "Português - Europeu"
 	},
 	{
+		"locale": "ro",
+		"label": "Română"
+	},
+	{
 		"locale": "ru",
 		"label": "Russian"
 	},
@@ -102,6 +118,10 @@
 	{
 		"locale": "uk",
 		"label": "Ukrainian"
+	},
+	{
+		"locale": "vi",
+		"label": "Tiếng Việt"
 	},
 	{
 		"locale": "zh-cn",

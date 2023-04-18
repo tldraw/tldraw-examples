@@ -325,5 +325,6 @@
     "toast.error.export-fail.title": "Exportieren fehlgeschlagen",
     "toast.error.export-fail.desc": "Bild kann nicht exportiert werden",
     "toast.error.copy-fail.title": "Kopieren fehlgeschlagen",
-    "toast.error.copy-fail.desc": "Bild kann nicht kopiert werden"
+    "toast.error.copy-fail.desc": "Bild kann nicht kopiert werden",
+    "file-system.shared-document-file-open-error.title": "Konnte die Datei nicht öffnen"
 }

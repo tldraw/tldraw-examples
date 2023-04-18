@@ -325,5 +325,10 @@
     "toast.error.export-fail.title": "Exportación fallida",
     "toast.error.export-fail.desc": "No se pudo exportar la imagen",
     "toast.error.copy-fail.title": "Copia fallida",
-    "toast.error.copy-fail.desc": "No se pudo copiar la imagen"
+    "toast.error.copy-fail.desc": "No se pudo copiar la imagen",
+    "file-system.shared-document-file-open-error.title": "No se pudo abrir el archivo",
+    "file-system.shared-document-file-open-error.description": "No es posible abrir archivos de proyectos compartidos.",
+    "vscode.file-open.dont-show-again": "No volver a preguntar",
+    "vscode.file-open.desc": "Este archivo se creó con una versión anterior de tldraw. ¿Desea actualizarlo para que funcione con la nueva versión?",
+    "context.pages.new-page": "Nueva página"
 }
